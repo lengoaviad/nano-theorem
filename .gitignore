@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+.venv/
+.env/
+*.swp
+*.swo
+.DS_Store
+.claude/
+
+# Generated figures (demo.py output)
+# Only hero.png and design_space.png are committed (README figures)
+figures/bernstein.png
+figures/barron.png
+figures/jl.png
+figures/rff.png
+figures/cover.png
+figures/deeponet.png
+figures/all_theorems.png
