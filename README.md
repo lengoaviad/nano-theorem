@@ -214,30 +214,7 @@ backing.
 | 5 | Cover | 1965 | Linear separability | Combinatorial counting | Phase transition at d=N/2 |
 | 6 | Chen & Chen | 1995 | Nonlinear operators | Branch-trunk decomposition | Universal |
 
----
 
-## The Theorems We Left Out
-
-**Cybenko (1989)** proved that single-hidden-layer networks with sigmoidal
-activations are universal approximators. But the proof uses the Hahn-Banach
-theorem — it's an existence proof, not a construction. There's nothing to
-implement. Barron's theorem is strictly stronger: it gives the same universality
-plus a convergence rate plus a construction.
-
-**Kolmogorov's superposition theorem (1957)** resolved Hilbert's 13th problem
-by showing that every continuous function of d variables can be written as
-a composition of continuous functions of one variable. Intellectually the
-deepest result in this space, and the theoretical ancestor of KANs
-(Kolmogorov-Arnold Networks). But the inner functions are fractal-like;
-constructive versions (Sprecher, 1965) are extremely delicate — not suitable
-for a clean 150-line demo.
-
-**Hornik et al. (1989)** proved universal approximation for networks with
-arbitrary bounded non-constant activation functions. Same limitation as
-Cybenko: non-constructive. The proof goes through the Stone-Weierstrass theorem,
-which is itself non-constructive.
-
----
 
 ## What Comes Next
 
